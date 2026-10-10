@@ -1,0 +1,14 @@
+Metadata-Version: 2.4
+Name: toolgate
+Version: 0.1.0
+Summary: Runtime firewall between AI agents and their MCP tools — vet, probe, and guard every tool call
+Author: Ilyass Emssaad
+License: MIT
+Keywords: mcp,ai-agents,security,prompt-injection,firewall
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Topic :: Security
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Dynamic: license-file

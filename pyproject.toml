@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "toolgate"
+version = "0.1.0"
+description = "Runtime firewall between AI agents and their MCP tools — vet, probe, and guard every tool call"
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+authors = [{ name = "Ilyass Emssaad" }]
+keywords = ["mcp", "ai-agents", "security", "prompt-injection", "firewall"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Topic :: Security",
+]
+
+[project.scripts]
+toolgate = "toolgate.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["toolgate*"]

@@ -1,0 +1,2 @@
+[console_scripts]
+toolgate = toolgate.cli:main
